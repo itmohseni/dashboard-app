@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+    --color-primary-100: #3E6BEC;
+    --color-primary-80: #6286ED;
+    --color-Secondary-100: #FDDE69;
+    --color-Secondary-80: #FCE489;
+    --color-dark-100: #1E1F20;
+    --color-dark-80: #1E1F20;
+    --color-gray-100: #7F85A2;
+    --color-gray-80: #8F92A1;
+    --color-lightgray-100: #F7F7F7;
+    --color-success-100: #62CA76;
+    --color-success-80: #77C285;
+    --color-error-100: #E45851;
+    --color-error-80: #E56862;
+    --color-darkgray-100: #35363A;
+    --color-dark-text: #BEC2D0;
+}
+
+
+
+
+
+
+
+
+
+.bglogindesk {
+    background-image: url(./assets/images/bg/loginDesktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.bgloginMob {
+    background-image: url(./assets/images/bg/loginMobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
